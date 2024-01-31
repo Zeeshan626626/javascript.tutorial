@@ -4,7 +4,7 @@ constant cannat be changed and we prefer to use the let insted of var becuase of
 scope and functional scope and let and var values changed 
 */
 var accountName="shan"
-let accountCity="multan"
+let accountCity="multan";
 accountKhan="zeeshan"
  accountName=""
 //accountId=239993
