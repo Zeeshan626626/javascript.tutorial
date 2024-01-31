@@ -18,3 +18,8 @@ console.log(convertnumberis);
 //"33abc"=>NaN
 
 // and also same we convert number into string and string into number 
+
+
+
+//****************************operations******************************/
+
