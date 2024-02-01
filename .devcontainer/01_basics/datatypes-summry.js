@@ -56,5 +56,28 @@
     console.log("hellow word");
    }
 
-   //  console.log(typeOf myobj);    used to chek the datatypes                 
- 
+   //  console.log(typeOf myobj);    used to chek the datatypes        
+   
+   
+
+
+   //**********************Memory********************/
+   //stack memory  (used in permitive ) in this we have copy of a value 
+   let name="shan"
+   let  anothername = name
+   anothername="zeeshan"
+   console.log(name);
+   console.log(anothername);
+   //in stack if we change the value it change in copy of value not a origniol value 
+
+   //heap memory ( used in non-permitive) 
+   //in this we have a original value.
+    let userone= {
+    email:"shan@gmail.com",
+    id:12
+   }
+   let userTwo= userone
+   userTwo.email="zeeshan@gmail.com"
+   console.log(userTwo);
+   console.log(userone);
+   //in HEAP the change of value also change in the orignal value  
